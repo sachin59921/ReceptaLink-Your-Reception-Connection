@@ -22,7 +22,7 @@ function Home() {
         {/* Card 1 */}
         <div className="card card-hover">
           <FaUser size={40} style={{ color: "#16a085" }} />
-          <img src={visitorImage} alt="Visitor Registration" className="card-image" />
+          <img src={visitorImage} alt="Visitor Registration" className="card-image" height={200} width={100} />
           <h5 className="card-title">Visitor Registration</h5>
           <p className="card-text">
             Add, edit, and delete visitors from your database
