@@ -51,8 +51,8 @@
 
   .card img {
     width: 230px;
-    height: 140px;
-    border-radius: 50%;
+    height: 190px;
+    border-radius: 20%;
   }
   
   .card-hover:hover {
