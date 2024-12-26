@@ -43,7 +43,7 @@ function Navbar() {
   return (
     <nav style={navStyle}>
       <Link to="./Home" style={logoStyle}>
-        Visitor Manager
+      ReceptaLink
       </Link>
 
       {/* Navigation Links */}
