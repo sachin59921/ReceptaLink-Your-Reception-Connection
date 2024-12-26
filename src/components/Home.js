@@ -2,9 +2,9 @@ import React from "react";
 import "./Home.css";
 import { FaUser, FaClock, FaCalendarAlt, FaHistory } from "react-icons/fa";
 import visitorImage from "../Assest/visitor-registration.jpg";
-import checkInImage from "../assets/check-in.jpg";
-import meetingImage from "../assets/meeting-scheduling.jpg";
-import historyImage from "../assets/visitor-history.jpg";
+import checkInImage from "../Assest/check-in.jpg";
+import meetingImage from "../Assest/meeting-scheduling.jpg";
+import historyImage from "../Assest/visitor-history.jpg";
 
 function Home() {
   return (
