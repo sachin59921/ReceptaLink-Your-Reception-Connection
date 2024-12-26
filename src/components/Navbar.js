@@ -7,7 +7,7 @@ function Navbar() {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "10px 20px",
-    backgroundColor: "#3D3BF3",
+    backgroundColor: "rgba(0, 0, 0)",
     color: "#fff",
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
   };
@@ -43,7 +43,7 @@ function Navbar() {
   return (
     <nav style={navStyle}>
       <Link to="./Home" style={logoStyle}>
-      ReceptaLink
+      <img src="./logo.png" alt="logo" height={80} width={100} />
       </Link>
 
       {/* Navigation Links */}
