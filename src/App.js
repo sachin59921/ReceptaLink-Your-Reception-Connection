@@ -18,7 +18,7 @@ function App() {
 
         <div style={appStyle}>
           <Routes>
-            <Route path="/" element={<Navigate to="/home" replace />} />
+            <Route path="/" element={<Navigate to="/Home" />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/admin" element={<AdminDashboard />} />
