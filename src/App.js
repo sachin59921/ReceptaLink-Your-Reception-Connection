@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AdminDashboard from "./components/AdminDashboard";
 import Home from "./components/Home";
@@ -18,6 +18,8 @@ function App() {
 
         <div style={appStyle}>
           <Routes>
+            {/* Default route for the root path */}
+            <Route path="/" element={<Navigate to="/Home" replace />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/admin" element={<AdminDashboard />} />
