@@ -18,7 +18,6 @@ function App() {
 
         <div style={appStyle}>
           <Routes>
-            {/* Default route for the root path */}
             <Route path="/" element={<Navigate to="/Home" replace />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
