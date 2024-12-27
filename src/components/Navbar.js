@@ -90,7 +90,6 @@ function Navbar() {
             width={80}
             style={{ marginRight: "10px", borderRadius: "50%" }}
           />
-          My Company
         </Link>
 
         {/* Navigation Links */}
