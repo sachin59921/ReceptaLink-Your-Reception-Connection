@@ -14,7 +14,7 @@ function AdminDashboard() {
     { id: 4, name: "Room 104", capacity: 8 },
   ]);
 
-  const [receptionReport, setReceptionReport] = useState([
+  const [receptionReport] = useState([
     {
       visitorName: "John Doe",
       visitorEmail: "john@example.com",
